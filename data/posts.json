@@ -2,6 +2,16 @@
   "posts": [
     {
       "series": "추천설계",
+      "title": "40대여성 비급여 암주요치료비 추천, 암통합치료비 가성비 플랜 비교",
+      "diseases": [
+        "cancer"
+      ],
+      "url": "https://blog.naver.com/cidertt/224388697440",
+      "image": "images/uploads/40대여자_암치료비_추천설계.jpg",
+      "date": "2026-08-24"
+    },
+    {
+      "series": "추천설계",
       "image": "images/uploads/우리아이-간병인보험-추천설계안.jpg",
       "title": "어린이 간병인보험 추천｜수족구·독감·폐렴 입원 대비",
       "diseases": [
