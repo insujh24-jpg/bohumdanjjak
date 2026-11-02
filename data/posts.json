@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "series": "보험상식",
+      "image": "images/uploads/우리아이-간병인보험-추천설계안.jpg",
+      "title": "어린이 간병인보험 추천｜수족구·독감·폐렴 입원 대비",
+      "diseases": [
+        "caregiving"
+      ],
+      "url": "https://blog.naver.com/cidertt/224295437578",
+      "date": "2026-05-25"
+    },
+    {
       "series": "보상사례",
       "title": "40대 남자 대장용종 제거, 2년 전 보완한 수술비까지 보험금 청구 후기",
       "diseases": [
