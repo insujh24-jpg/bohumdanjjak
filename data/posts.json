@@ -2,6 +2,26 @@
   "posts": [
     {
       "series": "추천설계",
+      "image": "images/uploads/제자리암_경계성종양_수술비.jpg",
+      "title": "건강검진에서 용종 제거했다면? 제자리암 경계성종양 수술비 미리 준비해야하는 이유 ",
+      "diseases": [
+        "surgery"
+      ],
+      "url": "https://blog.naver.com/cidertt/224361713605",
+      "date": "2026-07-29"
+    },
+    {
+      "series": "추천설계",
+      "image": "images/uploads/여성암진단비_가성비_플랜_커버.jpg",
+      "title": "여성암진단비 추천, 유방암 자궁암 보장은 어떻게 보완하는 것이 좋을까요?",
+      "diseases": [
+        "cancer"
+      ],
+      "url": "https://blog.naver.com/cidertt/224371092421",
+      "date": "2026-08-07"
+    },
+    {
+      "series": "추천설계",
       "title": "40대여성 비급여 암주요치료비 추천, 암통합치료비 가성비 플랜 비교",
       "diseases": [
         "cancer"
