@@ -55,7 +55,8 @@
       "series": "가입사례",
       "no": "#015",
       "diseases": [
-        "cancer"
+        "cancer",
+        "preexisting"
       ],
       "url": "https://blog.naver.com/cidertt/224458308204",
       "image": "images/case-015.jpg",
