@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "50대 암보험 비갱신형 암주요치료비 가입사례",
+      "series": "가입사례",
+      "no": "#015",
+      "diseases": [
+        "cancer"
+      ],
+      "url": "https://blog.naver.com/cidertt/224458308204",
+      "image": "images/case-015.jpg",
+      "date": "2026-10-30",
+      "summary": ""
+    },
+    {
+      "title": "건강검진 중 대장용종 제거, 수술비 보험금 청구후기",
+      "series": "보상사례",
+      "no": "#003",
+      "diseases": [
+        "surgery"
+      ],
+      "url": "https://blog.naver.com/cidertt/224318855990",
+      "image": "images/claim-003.jpg",
+      "date": "2026-06-17",
+      "summary": ""
+    }
+  ]
+}

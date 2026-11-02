@@ -1,0 +1,49 @@
+# 보험단짝 관리자 설정
+backend:
+  name: github
+  repo: insujh24-jpg/bohumdanjjak
+  branch: main
+  commit_messages:
+    update: "블로그 글 목록 업데이트"
+
+locale: ko
+media_folder: images/uploads
+public_folder: images/uploads
+
+collections:
+  - name: site
+    label: 블로그 글 관리
+    editor: { preview: false }
+    files:
+      - name: posts
+        label: 블로그 글 목록
+        file: data/posts.json
+        fields:
+          - name: posts
+            label: 글
+            label_singular: 글
+            widget: list
+            summary: "{{fields.date}} · {{fields.series}} · {{fields.title}}"
+            add_to_top: true
+            fields:
+              - { name: title, label: "글 제목", widget: string }
+              - { name: series, label: "종류", widget: select, options: ["보험상식", "가입사례", "보상사례", "추천설계"], default: "보험상식" }
+              - { name: no, label: "번호 (예: #016, 없으면 비워두기)", widget: string, required: false }
+              - name: diseases
+                label: "관련 질병 페이지 (여러 개 선택 가능)"
+                widget: select
+                multiple: true
+                required: false
+                options:
+                  - { label: "암보험", value: "cancer" }
+                  - { label: "뇌혈관질환", value: "brain" }
+                  - { label: "심장질환", value: "heart" }
+                  - { label: "치매보험", value: "dementia" }
+                  - { label: "수술·입원비", value: "surgery" }
+                  - { label: "간병보험", value: "caregiving" }
+                  - { label: "실손의료비", value: "silson" }
+                  - { label: "병력 있어도 가입", value: "preexisting" }
+              - { name: url, label: "블로그 글 주소", widget: string, pattern: ["^https?://", "https:// 로 시작하는 주소를 넣어주세요"] }
+              - { name: image, label: "썸네일 이미지", widget: image, required: false, choose_url: false }
+              - { name: date, label: "작성일", widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+              - { name: summary, label: "한 줄 요약 (선택)", widget: text, required: false }
